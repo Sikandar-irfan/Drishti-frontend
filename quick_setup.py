@@ -170,6 +170,7 @@ def main():
     success, stdout, stderr = run_command("git config user.name")
     if success:
         username = stdout.strip()
+        print(f"📱 Custom Domain: https://drishti-surveillance.duckdns.org/")
         print(f"📱 GitHub Pages: https://{username.lower()}.github.io/Drishti-frontend/")
     else:
         print("📱 GitHub Pages: Check your repository settings for the URL")

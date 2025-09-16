@@ -107,7 +107,9 @@ npm run auto-deploy
 ### `npm run deploy`
 - Builds production version
 - Deploys to GitHub Pages using gh-pages
-- Site will be available at: https://sikandar-irfan.github.io/Drishti-frontend/
+- Site will be available at: 
+  - **Custom Domain**: https://drishti-surveillance.duckdns.org/ ✨
+  - **GitHub Pages**: https://sikandar-irfan.github.io/Drishti-frontend/
 
 ### `npm run auto-deploy`
 - Discovers RPi automatically

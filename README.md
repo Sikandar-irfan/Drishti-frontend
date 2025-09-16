@@ -57,6 +57,7 @@ This will automatically:
 ## 📱 Access Points
 
 After deployment, access your system via:
+- **Custom Domain**: `https://drishti-surveillance.duckdns.org/` ✨ **NEW!**
 - **GitHub Pages**: `https://sikandar-irfan.github.io/Drishti-frontend/`
 - **Raspberry Pi**: `http://your-rpi-ip:8080`
 - **Development**: `http://localhost:5173`

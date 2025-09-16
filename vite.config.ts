@@ -9,7 +9,7 @@ export default defineConfig(({ mode }: { mode: string }) => ({
     react(),
     mode === 'development' && componentTagger(),
   ].filter(Boolean),
-  base: process.env.NODE_ENV === 'production' ? '/Drishti-frontend/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/' : '/',
   server: {
     host: "::",
     port: 8080,
