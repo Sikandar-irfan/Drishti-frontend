@@ -1,17 +1,47 @@
-# 🌐 DuckDNS Custom Domain Setup for Drishti Frontend
+# 🌐 DuckDNS 2. **Create subdomain**: `dr## 🔄 Alternative Domain Suggestions
+If `drishti-asb` is taken, try:
+- `drishti-autonomous.duckdns.org`
+- `drishti-frontend.duckdns.org`
+- `drishti-system.duckdns.org`
+- `your-name-drishti.duckdns.org`
+
+## 🔄 Updating Your Domain
+If you choose a different subdomain:
+
+1. **Update CNAME file**:
+   ```bash
+   echo "your-new-subdomain.duckdns.org" > public/CNAME
+   ```
+
+2. **Update workflow** (`.github/workflows/deploy.yml`):
+   ```yaml
+   url: https://your-new-subdomain.duckdns.org
+   ``` preferred name)
+3. **Set IP Address**: `185.199.108.153` (GitHub Pages IP)
+4. **Save** your configuration
+
+### Step 2: Repository Configuration ✅ (Already Done)
+- ✅ CNAME file created in `/public/CNAME`
+- ✅ GitHub Actions workflow updated
+- ✅ Vite configuration adjusted for custom domain
+- ✅ Documentation updated
+
+### Step 3: GitHub Pages Settings
+1. **Go to**: https://github.com/Sikandar-irfan/Drishti-frontend/settings/pages
+2. **Custom domain**: Enter `drishti-asb.duckdns.org` Setup for Drishti Frontend
 
 ## Overview
 Your Drishti autonomous surveillance system now uses a professional custom domain powered by DuckDNS for enhanced accessibility and branding.
 
 ## 🔗 Your New Domain
-**Primary Access**: https://drishti-surveillance.duckdns.org/
+**Primary Access**: https://drishti-asb.duckdns.org/
 
 ## 🚀 Setup Instructions
 
 ### Step 1: DuckDNS Account Setup
 1. **Visit**: https://www.duckdns.org/
 2. **Sign in** with your preferred method (Google, GitHub, Twitter, etc.)
-3. **Create subdomain**: `drishti-surveillance` (or your preferred name)
+3. **Create subdomain**: `drishti-asb` (already done!)
 4. **Set IP Address**: `185.199.108.153` (GitHub Pages IP)
 5. **Save** your configuration
 
@@ -23,12 +53,12 @@ Your Drishti autonomous surveillance system now uses a professional custom domai
 
 ### Step 3: GitHub Pages Settings
 1. **Go to**: https://github.com/Sikandar-irfan/Drishti-frontend/settings/pages
-2. **Custom domain**: Enter `drishti-surveillance.duckdns.org`
+2. **Custom domain**: Enter `drishti-asb.duckdns.org`
 3. **Enforce HTTPS**: Enable this option
 4. **Save** settings
 
 ## 🔧 Alternative Domain Suggestions
-If `drishti-surveillance` is taken, try:
+If `drishti-asb` is taken, try:
 - `drishti-autonomous.duckdns.org`
 - `drishti-frontend.duckdns.org`
 - `drishti-system.duckdns.org`
@@ -84,10 +114,10 @@ If you choose a different subdomain:
 ### Check Domain Status
 ```bash
 # DNS lookup
-nslookup drishti-surveillance.duckdns.org
+nslookup drishti-asb.duckdns.org
 
 # HTTPS check
-curl -I https://drishti-surveillance.duckdns.org/
+curl -I https://drishti-asb.duckdns.org/
 ```
 
 ### DuckDNS Management
@@ -111,8 +141,8 @@ curl -I https://drishti-surveillance.duckdns.org/
 ### DNS Propagation
 ```bash
 # Check DNS propagation globally
-dig @8.8.8.8 drishti-surveillance.duckdns.org
-dig @1.1.1.1 drishti-surveillance.duckdns.org
+dig @8.8.8.8 drishti-asb.duckdns.org
+dig @1.1.1.1 drishti-asb.duckdns.org
 ```
 
 ## 🔄 Domain Migration
@@ -140,6 +170,6 @@ Your Drishti system is now accessible:
 ---
 
 **Your autonomous surveillance system is now live at:**
-**🌟 https://drishti-surveillance.duckdns.org/ 🌟**
+**🌟 https://drishti-asb.duckdns.org/ 🌟**
 
-*Remember to replace `drishti-surveillance` with your chosen subdomain if different.*
+*Remember to replace `drishti-asb` with your chosen subdomain if different.*

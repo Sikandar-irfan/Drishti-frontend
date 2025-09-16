@@ -102,7 +102,8 @@ npm run deploy
 After successful deployment, you can access your system through:
 
 1. **GitHub Pages** (Recommended for remote access)
-   - URL: `https://yourusername.github.io/sentinel-view-system/`
+   - URL: `https://drishti-asb.duckdns.org/` ✨ **Custom Domain!**
+   - Backup: `https://sikandar-irfan.github.io/Drishti-frontend/`
    - Always accessible from anywhere
    - Automatically updated with GitHub pushes
 
